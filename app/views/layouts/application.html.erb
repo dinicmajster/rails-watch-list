@@ -11,6 +11,16 @@
   </head>
 
   <body>
+        <div class="navbar navbar-expand-sm navbar-light navbar-lewagon">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="https://plus.unsplash.com/premium_photo-1676049461949-185dcea09d77?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fHBvcGNvcm58ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=800&q=60" style="border-radius: 50%"/>
+          </a>
+          <button class="btn btn-flat" type="button">
+            <span class="btn btn-flat"><%= link_to "New list", new_list_path %></span>
+          </button>
+        </div>
+      </div>
     <%= yield %>
   </body>
 </html>

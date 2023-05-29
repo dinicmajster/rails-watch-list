@@ -36,6 +36,7 @@ gem "font-awesome-sass", "~> 6.1"
 gem "simple_form"
 gem "dotenv-rails", groups: [:development, :test]
 gem "cloudinary"
+gem "devise"
 
 # Use Kredis to get higher-level data types in Redis [https://github.com/rails/kredis]
 # gem "kredis"
